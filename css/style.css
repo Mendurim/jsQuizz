@@ -1,0 +1,67 @@
+body {
+	background-image: none; 
+	background-image: url("https://pixabay.com/static/uploads/photo/2015/08/05/19/52/wordpress-876983_640.jpg"); 
+	
+	color: black;
+	font-family: "Arial", sans-serif; 
+	font-size: 16px; 
+}
+
+#container {
+	width: 60%;
+	background: #5e4d27; 
+	margin: 20px auto;
+	overflow: auto; 
+	padding: 25px;
+	border-radius: 15px; 
+}
+
+header {
+	text-align: center; 
+	border-bottom: #000 dashed 2px; 
+}
+
+h1 {
+	margin: 0;
+	padding: 0; 
+}
+
+header p {
+	padding: 0;
+	margin-top: 5px; 
+	color: #000;
+}
+
+section {
+	min-height: 400px;
+}
+
+footer {
+	
+	text-align: center; 
+	margin: 0; 
+	padding-top: 0; 
+
+}
+
+input[type='submit']{
+	background: #54524f;
+	border: #fff solid 1px;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 10px; 
+	cursor: pointer;    
+}
+
+#results h3 {
+	background: #632305;
+	padding: 10px; 
+	margin: 10px 0;
+	border-color: #000 solid 2px; 
+	text-align: center; 
+}
+
+#results span {
+	color: #000;
+	font-weight: bold; 
+}
